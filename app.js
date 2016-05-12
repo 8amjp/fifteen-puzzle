@@ -6,8 +6,13 @@
  *
  */
 
+puzzle = {};
+
 $(function() {
     
+    $(window).on("touchstart", function(event) {
+        event.preventDefault();
+    });
     var hasTouchEvent = ('ontouchstart' in window);
     var numGrid = 4;   // 一辺のグリッド数
     var draggable;

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    background-color:floralwhite;
+}
+.navbar {
+    background-image: linear-gradient(to bottom, #f1738d 0%, #f33f63 100%);
+    margin: 0;
+}
+.navbar h1 {
+    margin: 0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+/* Font Design */
+* {
+    font-family:
+        AvenirNext-Regular, 'Avenir Next Regular', Roboto, Calibri,
+        HiraKakuProN-W3, 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', YuGothic, '游ゴシック',
+        sans-serif;
+    font-weight: 400;
+}
+
+.board {
+    position: relative;
+    margin: auto auto;
+}
+.block,
+.space {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+}
+.block {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #e74c3c;
+    line-height: 2;
+    text-align: center;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75), 1px 1px rgba(255, 255, 255, 0.75);
+    box-shadow: 2px 2px 8px 0px rgba(255, 255, 255, 0.75) inset, -2px -2px 8px 0px rgba(0, 0, 0, 0.75) inset;
+}
+.space {
+}
